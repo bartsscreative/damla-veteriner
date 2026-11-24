@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Damla Veteriner Muayenehanesi tasarım demosu. Hizmetler, iletişim ve konum bilgileri.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#99182b">
+  <link rel="icon" href="./assets/logo/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./assets/fonts/inter-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./site.js" defer></script>
+  <title>Damla Veteriner Muayenehanesi</title>
+</head>
+<body>
+  <a class="skip" href="#icerik">İçeriğe geç</a>
+  <header class="header wrap" id="ana-sayfa">
+    <a class="brand" href="#ana-sayfa"><img src="./assets/logo/logo.svg" alt="Damla Veteriner Muayenehanesi" width="253" height="73"></a>
+    <span class="demo"><span>Tasarım Demosu</span></span>
+    <button class="menu-toggle" type="button" aria-controls="ana-menu" aria-expanded="false" aria-label="Menüyü aç"><span aria-hidden="true"></span></button>
+    <nav id="ana-menu" aria-label="Ana menü">
+      <a href="#ana-sayfa" aria-current="location">Ana Sayfa</a>
+      <a href="#ziyaret">Hakkımızda</a>
+      <a href="#bakim">Hizmetler</a>
+      <a href="#iletisim">İletişim</a>
+      <a class="button phone" href="tel:+905334765662"><img src="./assets/icons/phone.svg" alt="">0533 476 56 62</a>
+    </nav>
+  </header>
+  <main id="icerik">
+    <section class="hero" aria-labelledby="baslik">
+      <div class="intro">
+        <h1 class="underlined" id="baslik">Damla Veteriner<br>Muayenehanesi</h1>
+        <p class="location"><img src="./assets/icons/map-pin.svg" alt="">Akkent, Şahinbey / Gaziantep</p>
+        <p class="intro-copy">Dostlarınızın sağlık takibi, muayene, aşı ve temel veteriner hizmetleri için yanınızdayız.</p>
+        <div class="actions">
+          <a class="button" href="https://wa.me/905334765662"><img src="./assets/icons/whatsapp.svg" alt="">İletişim</a>
+          <a class="button outline" href="https://www.google.com/maps/dir/?api=1&amp;destination=Akkent+Mah.+134012.+Cad.+No%3A5B%2FC%2C+%C5%9Eahinbey%2C+Gaziantep"><img src="./assets/icons/map-pin.svg" alt="">Yol Tarifi</a>
+        </div>
+      </div>
+      <img class="hero-image" src="./assets/images/hero-v12.webp" alt="Yan yana duran tekir kedi ve Golden Retriever" width="1536" height="1024" fetchpriority="high">
+    </section>
+    <dl class="info wrap">
+      <div><img src="./assets/icons/clock.svg" alt=""><dt>Çalışma Saatlerimiz</dt><dd>09.00 – 19.00</dd></div>
+      <div><img src="./assets/icons/phone.svg" alt=""><dt>Telefon</dt><dd><a href="tel:+905334765662">0533 476 56 62</a></dd></div>
+      <div><img src="./assets/icons/map-pin.svg" alt=""><dt>Konum</dt><dd>Akkent / Şahinbey / Gaziantep</dd></div>
+    </dl>
+    <section class="care wrap" id="bakim" aria-labelledby="bakim-baslik">
+        <p class="eyebrow">Hizmetlerimiz</p>
+        <h2 class="underlined" id="bakim-baslik">Veterinerlik Hizmetlerimiz</h2>
+        <div class="cards">
+          <article><img src="./assets/icons/stethoscope.svg" alt=""><div><h3>Muayene</h3><p>Genel sağlık kontrolü ve değerlendirme.</p></div></article>
+          <article><img src="./assets/icons/syringe.svg" alt=""><div><h3>Aşı Takibi</h3><p>Rutin aşı uygulamaları ve takip planlaması.</p></div></article>
+          <article><img src="./assets/icons/parasite.svg" alt=""><div><h3>Parazit Uygulamaları</h3><p>İç ve dış parazitlere karşı koruyucu bakım.</p></div></article>
+          <article><img src="./assets/icons/microchip.svg" alt=""><div><h3>Mikroçip</h3><p>Kimliklendirme ve kayıt işlemleri.</p></div></article>
+          <article><img src="./assets/icons/tooth.svg" alt=""><div><h3>Diş Bakımı</h3><p>Ağız ve diş sağlığına yönelik uygulamalar.</p></div></article>
+          <article><img src="./assets/icons/flask.svg" alt=""><div><h3>Laboratuvar</h3><p>Gerekli durumlarda tanısal testler ve analizler.</p></div></article>
+        </div>
+    </section>
+    <section class="visit wrap" id="ziyaret" aria-labelledby="ziyaret-baslik">
+      <img class="about-image" src="./assets/images/about-cat-v12.webp" alt="Yukarı ve sağa bakan tekir kedi" width="1672" height="941" loading="lazy" decoding="async">
+      <div class="visit-copy">
+        <h2 class="underlined" id="ziyaret-baslik">Muayenehanemiz</h2>
+        <p>Evcil dostlarınızın sağlığı ve yaşam kalitesi için temel veteriner hizmetlerini, özenli ve dikkatli bir yaklaşımla sunuyoruz.</p>
+        <button class="button outline" id="about-open" type="button" aria-haspopup="dialog">Hakkımızda <img src="./assets/icons/arrow-right.svg" alt=""></button>
+      </div>
+      <img class="paw" src="./assets/icons/paw.svg" alt="">
+      <dialog id="about-dialog" aria-labelledby="about-title">
+        <form method="dialog"><button class="button outline" aria-label="Kapat">Kapat</button></form>
+        <h2 id="about-title">Muayenehanemiz</h2>
+        <h3>İlk ziyarete hazırlanırken</h3>
+        <details><summary>Yanımda ne getirmeliyim?</summary><p>Varsa aşı karnesini, önceki muayene sonuçlarını ve kullanılan ilaçların listesini yanınıza alın.</p></details>
+        <details><summary>Hangi bilgileri paylaşmalıyım?</summary><p>İştah, su tüketimi, tuvalet alışkanlıkları veya davranışta fark ettiğiniz değişiklikleri ve ne zaman başladıklarını not edin.</p></details>
+        <details><summary>Dostumu nasıl getirebilirim?</summary><p>Kediniz için güvenli bir taşıma çantası, köpeğiniz için uygun bir tasma veya taşıma çantası kullanın.</p></details>
+      </dialog>
+    </section>
+    <section class="contact wrap" id="iletisim" aria-labelledby="iletisim-baslik">
+      <div class="contact-label">
+        <img src="./assets/icons/map-pin.svg" alt="">
+        <h2 id="iletisim-baslik">İletişim &amp; Konum</h2>
+      </div>
+      <address><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Akkent+Mah.+134012.+Cad.+No%3A5B%2FC%2C+%C5%9Eahinbey%2C+Gaziantep">Akkent Mah. 134012. Cad. No:5B/C<br>Şahinbey / Gaziantep</a></address>
+      <img class="animals" src="./assets/icons/animal-outline.svg" alt="">
+    </section>
+  </main>
+  <footer class="wrap footer">
+    <a class="brand" href="#ana-sayfa"><img src="./assets/logo/logo.svg" alt="Damla Veteriner Muayenehanesi" width="253" height="73"></a>
+    <span class="footer-line" aria-hidden="true"></span>
+    <span>Tasarım konsepti • <strong><a href="https://www.bartss.com">Bartss Creative Studio</a></strong></span>
+  </footer>
+</body>
+</html>
